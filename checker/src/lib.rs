@@ -26,6 +26,8 @@ extern crate syntax;
 extern crate syntax_pos;
 
 #[macro_use]
+extern crate lazy_static;
+#[macro_use]
 extern crate log;
 #[macro_use]
 extern crate serde_derive;
@@ -45,3 +47,4 @@ pub mod smt_solver;
 pub mod summaries;
 pub mod utils;
 pub mod visitors;
+pub mod z3_solver;
